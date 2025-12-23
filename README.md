@@ -1,15 +1,15 @@
-# Regenrek Kevinkern
+# Regenrek Tap
 
 ## How do I install these formulae?
 
-`brew install regenrek/kevinkern/<formula>`
+`brew install regenrek/tap/<formula>`
 
-Or `brew tap regenrek/kevinkern` and then `brew install <formula>`.
+Or `brew tap regenrek/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "regenrek/kevinkern"
+tap "regenrek/tap"
 brew "<formula>"
 ```
 
