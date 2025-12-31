@@ -1,5 +1,5 @@
 class Peakypanes < Formula
-  desc "Terminal dashboard with YAML-based layouts and native live previews."
+  desc "Terminal dashboard with YAML-based layouts and native live previews"
   homepage "https://github.com/regenrek/peakypanes"
   url "https://github.com/regenrek/peakypanes/archive/refs/tags/v0.0.8.tar.gz"
   sha256 "ed67d1b450dc9a51a9227f33e8a01ee2bad0f407eab3156edc2af4c5759e752a"
@@ -11,6 +11,6 @@ class Peakypanes < Formula
   end
 
   test do
-    system "#{bin}/peakypanes", "--version"
+    system bin/"peakypanes", "--version"
   end
 end
