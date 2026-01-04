@@ -9,7 +9,7 @@ class Codex1up < Formula
 
   def install
     ENV["HOME"] = buildpath
-    system "npm", "install", *std_npm_install_args
+    system "npm", "install", *std_npm_args
   end
 
   test do
