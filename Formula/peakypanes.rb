@@ -1,8 +1,8 @@
 class Peakypanes < Formula
   desc "Terminal dashboard with YAML-based layouts and native live previews"
   homepage "https://github.com/regenrek/peakypanes"
-  url "https://github.com/regenrek/peakypanes/archive/refs/tags/v0.0.10.tar.gz"
-  sha256 "091f6f3b0f5cbeff674b0c34b2f977c8086237e99176f468260a79f4bb013bd4"
+  url "https://github.com/regenrek/peakypanes/archive/refs/tags/v0.0.12.tar.gz"
+  sha256 "4c58fde17814c0640a232c0d2c0f366388511b2c1c5442ffc6d8e8b8b7204fc3"
   depends_on "go" => :build
 
   def install
