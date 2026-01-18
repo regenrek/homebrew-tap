@@ -1,12 +1,12 @@
 class Peky < Formula
   desc "Terminal dashboard with YAML-based layouts and native live previews"
   homepage "https://github.com/regenrek/peakypanes"
-  url "https://github.com/regenrek/peakypanes/archive/refs/tags/v0.0.33.tar.gz"
-  sha256 "def9a5493b6550c28ad251396e2ffc6ef82f97609edd84651cb7d1f173d5974c"
+  url "https://github.com/regenrek/peakypanes/archive/refs/tags/v0.0.34.tar.gz"
+  sha256 "e883c88021540076dd04c6b27174ea5680ced3589623671bc2962cace031d14a"
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X main.version=0.0.33"
+    ldflags = "-s -w -X main.version=0.0.34"
     system "go", "build", *std_go_args(ldflags: ldflags, output: bin/"peky"), "./cmd/peky"
   end
 
