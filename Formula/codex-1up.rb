@@ -1,15 +1,15 @@
 class Codex1up < Formula
   desc "TypeScript CLI for codex-1up (citty-based)"
   homepage "https://github.com/regenrek/codex-1up"
-  url "https://registry.npmjs.org/codex-1up/-/codex-1up-0.3.10.tgz"
-  sha256 "6d24ffddc9f2f61cb438ff7a00ece9babf3981974d0dc1fcd574c93bca83bce1"
+  url "https://registry.npmjs.org/codex-1up/-/codex-1up-0.3.11.tgz"
+  sha256 "9ff3e3a31caf479faf8952a6ffc7e0ceab38af581ec4e5a37c5222cd56209e2b"
   license "MIT"
 
   depends_on "node"
 
   def install
     ENV["HOME"] = buildpath
-    system "npm", "install", *std_npm_install_args
+    system "npm", "install", *std_npm_args
   end
 
   test do
