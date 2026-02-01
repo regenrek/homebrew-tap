@@ -1,8 +1,8 @@
 class Codex1up < Formula
   desc "TypeScript CLI for codex-1up (citty-based)"
   homepage "https://github.com/regenrek/codex-1up"
-  url "https://registry.npmjs.org/codex-1up/-/codex-1up-0.3.20.tgz"
-  sha256 "46d4920efe73a9d54e37b83ccfcc1aa4994479035333def57193f152f57f6155"
+  url "https://registry.npmjs.org/codex-1up/-/codex-1up-0.3.21.tgz"
+  sha256 "839b90b0cb186d94535798f8fbc0d643c7395a775c6cf391167c94fdf8de39e0"
   license "MIT"
 
   depends_on "node"
